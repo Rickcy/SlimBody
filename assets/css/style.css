@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-	font-size:30pt!important;
+	font-size:25pt!important;
 	margin: 0 0 30px;
 	font-weight: 700;
 }
@@ -226,6 +226,7 @@ textarea.form-control {
 }
 #services{
 	background-image: url("../images/Прямоугольник%2015.png");
+	min-height: 964px;
 
 }
 #program_eating{
@@ -309,7 +310,7 @@ textarea.form-control {
 }
 
 .pfblock-title_skills{
-	font-size: 30pt!important;
+	font-size: 25pt!important;
 	color: #349835;
 	margin-top: 15%;
 }
@@ -400,11 +401,13 @@ textarea.form-control {
     font-size: 15px;
     color: #9a9a9a;
 	line-height: 120%;
+	font-weight: 500;
 }
 .services-decription{
       margin-bottom: 30px;
-	font-size: 12px;
+	font-size: 15px;
 	color: #ffffff;
+	font-weight: 500;
 }
 .bludeer-decription{
 
@@ -446,12 +449,13 @@ textarea.form-control {
 		 -o-background-size: cover;
 			background-size: cover;
 	padding: 0;
+	min-height: 400px;
 }
 
 .intro {
 	position: absolute;
 	width: 100%;
-	top: 50%;
+	top: 250px;
 	left: 0;
 	text-align: center;
 	-webkit-transform: translate(0%, -50%);
@@ -673,7 +677,7 @@ textarea.form-control {
 }
 
 .navbar-custom .navbar-toggle .icon-bar {
-	background: #222;
+	background: #ffffff;
 }
 
 /* ---------------------------------------------- /*
@@ -829,6 +833,14 @@ textarea.form-control {
 .grid h2{
     font-size: 20px;
 }
+.green-link a{
+	color: #359A34;
+	text-decoration: none;
+	font-weight: 500;
+}
+.green-link:hover{
+	text-decoration: underline;
+}
 .days{
 	-webkit-transition: all 1s ease-in-out;
 	-moz-transition: all 1s ease-in-out;
@@ -918,7 +930,7 @@ textarea.form-control {
 figure.effect-bubba {
 	background: #43719e;
 }.text-green:hover{
-	color: black;
+	color: #256925;
  }
 
 .text-green{
@@ -926,6 +938,7 @@ figure.effect-bubba {
 	padding-bottom: 20px;
 	padding-top: 25px;
 	font-size: 14pt;
+	font-weight: 500;
 }
 
 figure.effect-bubba img {
@@ -1120,10 +1133,26 @@ label.css-label {
 	-ms-user-select: none;
 	user-select: none;
 }
+.list{
+	color: white;
+	font-weight: 600!important;
+	z-index: 1000;
+}
+.enter-in{
+	min-width:130px;margin:20px auto;width: 20%;border: 3px solid #359A34;border-radius: 20px;padding: 10px;color: white;font-weight: 500;cursor: pointer
+}
+.enter-in:hover{
+	background-color: rgba(0, 0, 0, 0.08);
+	border: solid #cd0000;
+	color: whitesmoke;
+}
 
 @media screen and (max-width: 994px) {
 	.navbar-nav>.list{
 		margin: 0!important;
+		color: white;
+		font-weight: 600!important;
+
 
 	}
 	.navbar-nav>li>img{

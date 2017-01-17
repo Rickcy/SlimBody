@@ -96,7 +96,7 @@
 		 * Home BG
 		/* ---------------------------------------------- */
 if($(window).height()>570) {
-	$(".screen-height").height($(window).height() - 150);
+	$(".screen-height").height($(window).height() - 100);
 
 	$(window).resize(function () {
 		$(".screen-height").height($(window).height() - 150);
